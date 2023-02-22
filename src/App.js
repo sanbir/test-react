@@ -6,13 +6,11 @@ import { ContextUsage } from "./ContextUsage";
 
 function App() {
   return (
-    <>
-      <div>
-        <ContextUsage />
-      </div>
-      <div>My name is Aleksei</div>
-    </>
-
+    <div>
+        <div>Alexander</div>
+        <ContextUsage/>
+        <div>My name is Aleksei</div>
+    </div>
   );
 }
 
